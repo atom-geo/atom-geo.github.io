@@ -4,6 +4,7 @@ subtitle: "A reproducible R notebook template for trap-count agreement and speci
 date: 2025-01-01
 categories: [surveillance, statistics, mosquito control, R, reproducible analysis]
 execute:
+  eval: false
   echo: true
   warning: false
   message: false

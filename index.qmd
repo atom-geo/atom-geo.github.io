@@ -4,46 +4,105 @@ subtitle: "Spatial data science, GIS, and operational analytics for public healt
 listing: false
 ---
 
-::: {.hero}
+::: {.hero .hero-spatial}
+
+::: {.eyebrow}
+GIS · Vector Surveillance · UAS · Public Health Operations
+:::
+
 # Spatial data science for vector control operations
 
-I build geospatial workflows, dashboards, analysis notebooks, and field-to-decision systems for mosquito surveillance, treatment planning, drone/UAS workflows, and public health operations.
+I design geospatial workflows, dashboards, analysis notebooks, and field-to-decision systems for mosquito surveillance, treatment planning, UAS operations, and integrated public health mosquito control.
 
-[View projects](projects/index.qmd){.btn .btn-primary} [Read CV](cv.qmd){.btn .btn-outline-primary}
+::: {.hero-actions}
+[View projects](projects/index.qmd){.btn .btn-primary}
+[Read CV](cv.qmd){.btn .btn-outline-primary}
+:::
+
+::: {.signal-strip}
+**Field data** → **spatial analysis** → **operational decisions** → **public health action**
+:::
+
 :::
 
 ## Featured work
 
-::: {.grid}
+::: {.grid .feature-grid}
+
 ::: {.g-col-12 .g-col-md-4}
+::: {.project-card}
+::: {.project-kicker}
+Aerial operations
+:::
+
 ### Aerial Swath Analysis Platform
+
 Open-source workflow for processing, modeling, and visualizing aerial granular application calibration data.
 
 [Case study →](projects/asap.qmd)
 :::
+:::
 
 ::: {.g-col-12 .g-col-md-4}
+::: {.project-card}
+::: {.project-kicker}
+Remote sensing
+:::
+
 ### Drone/LiDAR habitat modeling
+
 High-resolution elevation and field validation workflows for identifying mosquito production habitat.
 
 [Case study →](projects/lidar-habitat.qmd)
 :::
+:::
 
 ::: {.g-col-12 .g-col-md-4}
+::: {.project-card}
+::: {.project-kicker}
+Biological control
+:::
+
 ### Mosquitofish distribution workflow
+
 Spatial and operational workflow design for biological control request management and distribution.
 
 [Case study →](projects/mosquitofish-workflow.qmd)
 :::
 :::
 
+:::
+
 ## What this portfolio demonstrates
 
-- Applied GIS and spatial data science in real operational settings
-- Reproducible notebooks and transparent analytical workflows
-- Public-health communication through maps, dashboards, and plain-language summaries
-- Enterprise GIS, field apps, UAS/drone data, remote sensing, and vector-control analytics
+::: {.grid .focus-grid}
+
+::: {.g-col-12 .g-col-md-6}
+### Applied geospatial analysis
+
+GIS, spatial data science, and reproducible analysis applied to real mosquito control and public health operations.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Operational decision support
+
+Dashboards, notebooks, field apps, and data pipelines that connect surveillance data to treatment planning and program evaluation.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### UAS and remote sensing workflows
+
+Drone, photogrammetry, LiDAR, and habitat-mapping approaches for inspection, targeting, and operational assessment.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Public health communication
+
+Maps, plain-language summaries, and visual tools that make technical information usable for managers, field staff, and public health partners.
+:::
+
+:::
 
 ## Current focus
 
-I am especially interested in geospatial decision-support systems that connect field data, surveillance, environmental conditions, and treatment operations into reproducible and explainable workflows.
+I am especially interested in geospatial decision-support systems that connect field surveillance, environmental conditions, remote sensing, and treatment operations into workflows that are reproducible, explainable, and useful for integrated pest management.
