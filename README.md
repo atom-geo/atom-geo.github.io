@@ -18,9 +18,8 @@ In GitHub, go to:
 
 Settings → Pages → Build and deployment → Source → GitHub Actions
 
-## Suggested first edits
+## to do...
 
-1. Replace placeholder contact links in `_quarto.yml` and `about.qmd`.
 2. Add your PDF CV at `assets/cv/Atom_Rosales_CV.pdf`.
 3. Add project screenshots to `assets/img/`.
 4. Complete these first three project pages:
@@ -30,6 +29,3 @@ Settings → Pages → Build and deployment → Source → GitHub Actions
 5. Add publication citations and presentation links in `publications/index.qmd`.
 6. Add a public or synthetic notebook in `notebooks/bgcounter-analysis.qmd`.
 
-## Data rule
-
-Only publish public, synthetic, anonymized, or aggregated data. Do not publish sensitive operational locations, resident addresses, precise trap sites, treatment routes, or restricted public-health data.
