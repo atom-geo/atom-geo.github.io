@@ -1,0 +1,22 @@
+---
+title: "About"
+---
+
+I am a spatial data scientist and GIS professional working at the intersection of mosquito control, public health, remote sensing, field operations, and reproducible analysis.
+
+My work focuses on turning field, environmental, treatment, and surveillance data into tools that help teams understand risk, prioritize effort, and communicate decisions clearly.
+
+## Areas of interest
+
+- Spatial data science for vector control
+- Drone/UAS and LiDAR workflows
+- Aerial and ground treatment analytics
+- Mosquito surveillance dashboards
+- Public-health GIS communication
+- Reproducible notebooks and open-source tools
+
+## Contact
+
+- GitHub: <https://github.com/atom-geo>
+- LinkedIn: <https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG>
+- Email: your.email@example.com

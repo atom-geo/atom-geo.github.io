@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Atom Rosales"
+  site-url: "https://atom-geo.github.io"
+  description: "Spatial data science, GIS, and operational analytics for mosquito control and public health."
+  navbar:
+    background: light
+    pinned: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Notebooks"
+        href: notebooks/index.qmd
+      - text: "Publications"
+        href: publications/index.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/atom-geo
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG
+        aria-label: LinkedIn
+  page-footer:
+    left: "© 2026 Atom Rosales"
+    right: "Built with Quarto and GitHub Pages"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/css/styles.scss
+    toc: true
+    code-fold: true
+    code-tools: true
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-newwindow: true
+    fig-cap-location: bottom
+
+execute:
+  freeze: auto

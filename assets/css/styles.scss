@@ -1,0 +1,50 @@
+/*-- scss:defaults --*/
+$primary: #1d5f4a;
+$body-color: #1d2528;
+$link-color: #1d5f4a;
+$font-family-sans-serif: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+/*-- scss:rules --*/
+.hero {
+  padding: 4rem 0 3rem 0;
+  max-width: 920px;
+}
+
+.hero h1 {
+  font-size: clamp(2.3rem, 6vw, 4.8rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 760px;
+}
+
+.card,
+.quarto-grid-item {
+  border-radius: 1rem;
+  border: 1px solid #e5ece9;
+  box-shadow: 0 12px 28px rgba(29, 37, 40, 0.06);
+}
+
+.publication {
+  border-left: 4px solid $primary;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  background: #f7faf8;
+  border-radius: 0.75rem;
+}
+
+.navbar-title {
+  font-weight: 700;
+}
+
+.btn {
+  border-radius: 999px;
+}
+
+img {
+  border-radius: 0.75rem;
+}

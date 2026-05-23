@@ -1,0 +1,42 @@
+---
+title: "CV"
+subtitle: "Formal record of roles, education, publications, presentations, awards, and technical skills."
+---
+
+[Download PDF CV](assets/cv/Atom_Rosales_CV.pdf){.btn .btn-primary}
+
+## Current role
+
+**Title**  
+Organization, Location  
+Dates
+
+One or two lines explaining your current role at a high level.
+
+## Education
+
+**Degree**  
+Institution, year
+
+## Technical skills
+
+**GIS and remote sensing:** ArcGIS Pro, ArcGIS Online, Field Maps, Experience Builder, QGIS, LiDAR, UAS/drone workflows  
+**Spatial data science:** Python, R, GeoPandas, Rasterio, sf, terra, PostGIS, SQL  
+**Visualization and web:** Quarto, Leaflet, MapLibre, Shiny, Observable, dashboards  
+**Operations:** mosquito surveillance, aerial application analytics, biological control workflows, treatment tracking
+
+## Publications
+
+Add formal citations here or link to the publications page.
+
+## Presentations
+
+Add conference talks, posters, and invited presentations.
+
+## Awards and recognition
+
+Add awards, scholarships, and professional recognition.
+
+## Professional service
+
+Add committees, reviewer work, association roles, mentoring, or training.

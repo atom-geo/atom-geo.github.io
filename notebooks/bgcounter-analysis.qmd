@@ -1,0 +1,45 @@
+---
+title: "BG-Counter Performance Analysis"
+subtitle: "A reproducible notebook template for trap-count agreement and species-composition analysis"
+date: 2025-01-01
+categories: [surveillance, statistics, mosquito control, reproducible analysis]
+---
+
+## Question
+
+How closely do automated trap counts agree with manual counts across sites and sampling conditions?
+
+## Data sensitivity note
+
+This notebook should use synthetic, anonymized, or aggregated data unless the real data are approved for public release.
+
+## Load packages
+
+```{python}
+#| eval: false
+import pandas as pd
+import geopandas as gpd
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+```
+
+## Load data
+
+```{python}
+#| eval: false
+counts = pd.read_csv("../data/bgcounter_sample.csv")
+counts.head()
+```
+
+## Analysis outline
+
+1. Clean and validate count fields
+2. Compare manual and automated totals
+3. Fit simple agreement model
+4. Examine site-level residuals
+5. Summarize species composition
+6. Discuss operational interpretation and limitations
+
+## Placeholder result
+
+Replace this section with plots, tables, and interpretation once the dataset is ready.

@@ -1,0 +1,50 @@
+---
+title: "Drone and LiDAR Habitat Modeling"
+subtitle: "Mapping mosquito production habitat from high-resolution elevation data"
+description: "A remote-sensing and field-validation workflow for identifying mosquito habitat in complex coastal environments."
+date: 2025-01-01
+categories: [remote sensing, LiDAR, UAS, habitat modeling, GIS]
+image: ../assets/img/project-lidar-placeholder.png
+---
+
+## Problem
+
+Mosquito production habitat can occur at fine spatial scales that are hard to capture with coarse elevation or land-cover datasets.
+
+## Data
+
+- Drone/UAS imagery
+- LiDAR point clouds
+- Digital elevation models
+- Field validation points
+- Environmental or hydrologic context layers
+
+## Methods
+
+- Point-cloud classification
+- DEM and hillshade generation
+- Terrain derivatives such as slope, depressions, and flow accumulation
+- Field validation
+- Suitability or priority mapping
+
+## Outputs
+
+Add visuals here:
+
+- DEM / hillshade comparison
+- Point-cloud classification example
+- Habitat suitability map
+- Validation-point map
+- Treatment-priority zones
+
+## Impact
+
+Explain how the workflow supports targeted surveillance, treatment planning, and better understanding of habitat distribution.
+
+## My role
+
+Describe your role in data collection, processing, modeling, GIS analysis, validation, and communication.
+
+## Stack
+
+ArcGIS Pro, Drone2Map, CloudCompare, PDAL, QGIS, Python, Rasterio, GeoPandas, or your actual stack.

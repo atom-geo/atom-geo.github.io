@@ -1,0 +1,33 @@
+---
+title: "Publications and Talks"
+subtitle: "Peer-reviewed publications, conference presentations, posters, software, and technical reports."
+---
+
+## Peer-reviewed publications
+
+::: {.publication}
+**Article title goes here**  
+Author list. Journal, year. DOI/link.
+
+**Plain-language summary:** One or two sentences explaining why the work matters.
+
+**My contribution:** Be specific and accurate: field work, GIS analysis, data processing, writing, review, software, visualization, etc.
+:::
+
+## Conference presentations
+
+::: {.publication}
+**Presentation title goes here**  
+Conference, year.
+
+**Summary:** What problem did the presentation address?
+
+**Materials:** [Slides](https://example.com) · [Poster](https://example.com) · [Code](https://example.com)
+:::
+
+## Software and technical outputs
+
+::: {.publication}
+**Software/project name**  
+Short description and link.
+:::

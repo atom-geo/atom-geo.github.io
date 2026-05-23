@@ -1,0 +1,47 @@
+---
+title: "Mosquitofish Distribution Workflow"
+subtitle: "Spatial workflow design for biological control logistics"
+description: "A GIS-enabled operational workflow for managing public requests, location validation, scheduling, and biological control distribution."
+date: 2025-01-01
+categories: [biological control, operations, GIS, workflow design, public service]
+image: ../assets/img/project-mosquitofish-placeholder.png
+---
+
+## Problem
+
+Public request programs can break down when forms, locations, eligibility checks, scheduling, and field records are disconnected.
+
+## Workflow
+
+1. Resident request submitted
+2. Address or site location validated
+3. Eligibility and service-area checks completed
+4. Appointment or route planned
+5. Distribution recorded
+6. Dashboard updated
+7. Follow-up or reporting completed
+
+## Spatial components
+
+- Geocoding
+- Service-area validation
+- Pickup/delivery logistics
+- Dashboard monitoring
+- Request-density mapping
+
+## Outputs
+
+Add screenshots or diagrams here:
+
+- Request intake workflow
+- Dashboard screenshot
+- Generalized request-density map
+- Process diagram
+
+## Impact
+
+Describe improvements such as fewer no-shows, cleaner records, better scheduling, reduced manual entry, and improved resident service.
+
+## My role
+
+Describe your role in workflow design, GIS implementation, dashboarding, automation, or program support.
