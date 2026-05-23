@@ -36,9 +36,9 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - spacelab
       - assets/css/styles.scss
-    toc: true
+    toc: false
     code-fold: true
     code-tools: true
     smooth-scroll: true

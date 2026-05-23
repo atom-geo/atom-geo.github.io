@@ -1,9 +1,9 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "Spatial data science, GIS, vector surveillance, and operational analytics for public health and integrated pest management."
+subtitle: "Spatial data science, GIS, vector surveillance, and operational analytics for public health and integrated pest management programs."
 ---
 
-[Download PDF CV](assets/cv/Atom_Rosales_CV.pdf){.btn .btn-primary}
+[Download CV](assets/cv/Atom_Rosales_CV.pdf){.btn .btn-primary}
 
 ## Profile
 
@@ -207,9 +207,15 @@ Rosales, A. (January 2022). Taking on Tables: Intermediate Excel for the Mosquit
 
 ## Awards and recognition
 
+**Cyrus R. Lesser Student Paper Competition 1st Place Winner **
+Florida Mosquito Control Association, 2025
+
+**T. Wainwright Miller Scholarship* *
+Florida Mosquito Control Association, 2025
+
 **James M. Robinson Memorial Award**  
 Florida Mosquito Control Association, 2024  
-In appreciation for outstanding service to the Florida Mosquito Control Association.
+In appreciation for outstanding service to the Florida Mosquito Control Association through the development of an end-to-end digital workflow for the Collier Mosquito Control District's Mosquitofish program.
 
 **Industry Shadow Program and Stipend Awardee**  
 American Mosquito Control Association, 2023
@@ -219,9 +225,8 @@ Florida Mosquito Control Association, 2023
 
 ## Professional service and leadership
 
-- UAS Committee Chair, Florida Mosquito Control Association, 2022--2024
-- A/V Committee Member, Florida Mosquito Control Association, 2023
-- DODD Committee Member, Florida Mosquito Control Association, 2024
-- UAS Committee Member, American Mosquito Control Association
+- UAS Committee Chair, Florida Mosquito Control Association, 2022-2024
+- A/V Committee Member, Florida Mosquito Control Association, 2023-2026
+- DODD Committee Member, Florida Mosquito Control Association, 2024-2026
 - Science and Technology Committee Member, American Mosquito Control Association
 

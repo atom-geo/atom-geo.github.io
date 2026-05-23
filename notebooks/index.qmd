@@ -1,6 +1,6 @@
 ---
 title: "Research Notebooks"
-subtitle: "Reproducible spatial analysis, visualization, and modeling examples."
+subtitle: "Reproducible spatial analysis, visualization, and modeling projects."
 listing:
   contents: "*.qmd"
   type: table
@@ -9,6 +9,10 @@ listing:
   fields: [title, subtitle, date, categories]
 ---
 
-This section should show how you think: data cleaning, assumptions, exploratory analysis, spatial methods, limitations, and interpretation.
+This section is to demonstrate my analytical and data wrangling skills:
+- data cleaning
+- exploratory analysis
+- maps
+- spatial methods, limitations, and interpretation
 
-Use public, anonymized, aggregated, or synthetic data when operational data cannot be released.
+Use public, anonymized, aggregated, or synthetic data when operational data cannot be released!

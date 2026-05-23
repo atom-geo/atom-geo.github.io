@@ -12,7 +12,7 @@ execute:
 
 ## Question
 
-How closely do automated BG-Counter trap counts agree with manual counts across sites and sampling conditions?
+Evaluation of BG-Counter Performance in Surveilling Collier County's Diverse Mosquito Populations
 
 ## Background/Intro
 
