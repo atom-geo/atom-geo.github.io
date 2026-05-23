@@ -5,7 +5,7 @@ project:
 website:
   title: "Atom Rosales"
   site-url: "https://atom-geo.github.io"
-  description: "Spatial data science, GIS, and operational analytics for mosquito control and public health."
+  description: "Spatial data science, GIS, and operational analytics for integrated pest management and public health."
   navbar:
     background: light
     pinned: true

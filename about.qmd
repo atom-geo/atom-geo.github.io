@@ -2,15 +2,15 @@
 title: "About"
 ---
 
-I am a spatial data scientist and GIS professional working at the intersection of mosquito control, public health, remote sensing, field operations, and reproducible analysis.
+I am a spatial data scientist and GIS professional working at the intersection of public health, remote sensing, and integrated pest management.
 
-My work focuses on turning field, environmental, treatment, and surveillance data into tools that help teams understand risk, prioritize effort, and communicate decisions clearly.
+My primary focus is turning environmental and surveillance data into tools that help teams prioritize effort, understand risk, and communicate decisions early.
 
 ## Areas of interest
 
 - Spatial data science for vector control
-- Drone/UAS and LiDAR workflows
-- Aerial and ground treatment analytics
+- Integrated pest management
+- Unmanned Aerial Systems (UAS)
 - Mosquito surveillance dashboards
 - Public-health GIS communication
 - Reproducible notebooks and open-source tools
