@@ -5,7 +5,7 @@ listing:
   contents: "*.qmd"
   type: table
   sort: "date desc"
-  categories: true
+  categories: false
   fields: [title, subtitle, date, categories]
 ---
 

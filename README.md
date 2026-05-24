@@ -20,9 +20,9 @@ Settings → Pages → Build and deployment → Source → GitHub Actions
 
 ## to do...
 
-2. Add your PDF CV at `assets/cv/Atom_Rosales_CV.pdf`.
+2. Add PDF CV at `assets/cv/Atom_Rosales_CV.pdf`.
 3. Add project screenshots to `assets/img/`.
-4. Complete these first three project pages:
+4. Complete project pages...:
    - `projects/asap.qmd`
    - `projects/lidar-habitat.qmd`
    - `projects/mosquitofish-workflow.qmd`

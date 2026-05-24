@@ -1,6 +1,12 @@
 ---
 title: "Curriculum Vitae"
 subtitle: "Spatial data science, GIS, vector surveillance, and operational analytics for public health and integrated pest management programs."
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-location: right
+    toc-title: "Contents"
 ---
 
 [Download CV](assets/cv/Atom_Rosales_CV.pdf){.btn .btn-primary}
@@ -9,7 +15,7 @@ subtitle: "Spatial data science, GIS, vector surveillance, and operational analy
 
 Spatial data science and public health professional specializing in GIS, integrated pest management, and UAS/remote sensing. My work focuses on turning surveillance and environmental data into practical tools that support vector-borne disease prevention, integrated pest management, regulatory compliance, and defensible public health operations.
 
-## Focus areas
+## Focus Areas
 
 - Spatial data science for vector surveillance and public health decision support
 - GIS, geodatabases, dashboards, and field data systems for integrated pest management operations
@@ -17,7 +23,7 @@ Spatial data science and public health professional specializing in GIS, integra
 - Mosquito surveillance, arbovirus monitoring, treatment thresholds, and vector species distribution analysis
 - Reproducible workflows, automated data pipelines, and applied analytics.
 
-## Current role
+## Current Role
 
 **Director of Technical Development**  
 Collier Mosquito Control District, Naples, Florida  
@@ -66,7 +72,7 @@ December 2017
 
 **Visualization and communication:** Quarto, ArcGIS dashboards, Leaflet, MapLibre, Shiny, Observable, technical reporting, training, presentations, and outreach
 
-## Professional experience
+## Professional Experience
 
 ### Director of Technical Development
 

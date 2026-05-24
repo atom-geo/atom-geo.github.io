@@ -4,7 +4,7 @@
     "href": "cv.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Download PDF CV"
+    "text": "Download CV"
   },
   {
     "objectID": "cv.html#profile",
@@ -74,14 +74,14 @@
     "href": "cv.html#awards-and-recognition",
     "title": "Curriculum Vitae",
     "section": "Awards and recognition",
-    "text": "Awards and recognition\nJames M. Robinson Memorial Award\nFlorida Mosquito Control Association, 2024\nIn appreciation for outstanding service to the Florida Mosquito Control Association.\nIndustry Shadow Program and Stipend Awardee\nAmerican Mosquito Control Association, 2023\nTallahassee Days Stipend Awardee\nFlorida Mosquito Control Association, 2023"
+    "text": "Awards and recognition\nCyrus R. Lesser Student Paper Competition 1st Place Winner  Florida Mosquito Control Association, 2025\n**T. Wainwright Miller Scholarship* * Florida Mosquito Control Association, 2025\nJames M. Robinson Memorial Award\nFlorida Mosquito Control Association, 2024\nIn appreciation for outstanding service to the Florida Mosquito Control Association through the development of an end-to-end digital workflow for the Collier Mosquito Control District’s Mosquitofish program.\nIndustry Shadow Program and Stipend Awardee\nAmerican Mosquito Control Association, 2023\nTallahassee Days Stipend Awardee\nFlorida Mosquito Control Association, 2023"
   },
   {
     "objectID": "cv.html#professional-service-and-leadership",
     "href": "cv.html#professional-service-and-leadership",
     "title": "Curriculum Vitae",
     "section": "Professional service and leadership",
-    "text": "Professional service and leadership\n\nUAS Committee Chair, Florida Mosquito Control Association, 2022–2024\nA/V Committee Member, Florida Mosquito Control Association, 2023\nDODD Committee Member, Florida Mosquito Control Association, 2024\nUAS Committee Member, American Mosquito Control Association\nScience and Technology Committee Member, American Mosquito Control Association"
+    "text": "Professional service and leadership\n\nUAS Committee Chair, Florida Mosquito Control Association, 2022-2024\nA/V Committee Member, Florida Mosquito Control Association, 2023-2026\nDODD Committee Member, Florida Mosquito Control Association, 2024-2026\nScience and Technology Committee Member, American Mosquito Control Association"
   },
   {
     "objectID": "index.html",
@@ -110,5 +110,285 @@
     "title": "Atom Rosales",
     "section": "Current focus",
     "text": "Current focus\nI am especially interested in geospatial decision-support systems that connect field surveillance, environmental conditions, remote sensing, and treatment operations into workflows that are reproducible, explainable, and useful for integrated pest management."
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications and Talks",
+    "section": "",
+    "text": "Article title goes here\nAuthor list. Journal, year. DOI/link.\nPlain-language summary: One or two sentences explaining why the work matters.\nMy contribution: Be specific and accurate: field work, GIS analysis, data processing, writing, review, software, visualization, etc."
+  },
+  {
+    "objectID": "publications/index.html#peer-reviewed-publications",
+    "href": "publications/index.html#peer-reviewed-publications",
+    "title": "Publications and Talks",
+    "section": "",
+    "text": "Article title goes here\nAuthor list. Journal, year. DOI/link.\nPlain-language summary: One or two sentences explaining why the work matters.\nMy contribution: Be specific and accurate: field work, GIS analysis, data processing, writing, review, software, visualization, etc."
+  },
+  {
+    "objectID": "publications/index.html#conference-presentations",
+    "href": "publications/index.html#conference-presentations",
+    "title": "Publications and Talks",
+    "section": "Conference presentations",
+    "text": "Conference presentations\n\nPresentation title goes here\nConference, year.\nSummary: What problem did the presentation address?\nMaterials: Slides · Poster · Code"
+  },
+  {
+    "objectID": "publications/index.html#software-and-technical-outputs",
+    "href": "publications/index.html#software-and-technical-outputs",
+    "title": "Publications and Talks",
+    "section": "Software and technical outputs",
+    "text": "Software and technical outputs\n\nSoftware/project name\nShort description and link."
+  },
+  {
+    "objectID": "projects/lidar-habitat.html",
+    "href": "projects/lidar-habitat.html",
+    "title": "Drone and LiDAR Habitat Modeling",
+    "section": "",
+    "text": "Mosquito production habitat can occur at fine spatial scales that are hard to capture with coarse elevation or land-cover datasets."
+  },
+  {
+    "objectID": "projects/lidar-habitat.html#problem",
+    "href": "projects/lidar-habitat.html#problem",
+    "title": "Drone and LiDAR Habitat Modeling",
+    "section": "",
+    "text": "Mosquito production habitat can occur at fine spatial scales that are hard to capture with coarse elevation or land-cover datasets."
+  },
+  {
+    "objectID": "projects/lidar-habitat.html#data",
+    "href": "projects/lidar-habitat.html#data",
+    "title": "Drone and LiDAR Habitat Modeling",
+    "section": "Data",
+    "text": "Data\n\nDrone/UAS imagery\nLiDAR point clouds\nDigital elevation models\nField validation points\nEnvironmental or hydrologic context layers"
+  },
+  {
+    "objectID": "projects/lidar-habitat.html#methods",
+    "href": "projects/lidar-habitat.html#methods",
+    "title": "Drone and LiDAR Habitat Modeling",
+    "section": "Methods",
+    "text": "Methods\n\nPoint-cloud classification\nDEM and hillshade generation\nTerrain derivatives such as slope, depressions, and flow accumulation\nField validation\nSuitability or priority mapping"
+  },
+  {
+    "objectID": "projects/lidar-habitat.html#outputs",
+    "href": "projects/lidar-habitat.html#outputs",
+    "title": "Drone and LiDAR Habitat Modeling",
+    "section": "Outputs",
+    "text": "Outputs\nAdd visuals here:\n\nDEM / hillshade comparison\nPoint-cloud classification example\nHabitat suitability map\nValidation-point map\nTreatment-priority zones"
+  },
+  {
+    "objectID": "projects/lidar-habitat.html#impact",
+    "href": "projects/lidar-habitat.html#impact",
+    "title": "Drone and LiDAR Habitat Modeling",
+    "section": "Impact",
+    "text": "Impact\nExplain how the workflow supports targeted surveillance, treatment planning, and better understanding of habitat distribution."
+  },
+  {
+    "objectID": "projects/lidar-habitat.html#my-role",
+    "href": "projects/lidar-habitat.html#my-role",
+    "title": "Drone and LiDAR Habitat Modeling",
+    "section": "My role",
+    "text": "My role\nDescribe your role in data collection, processing, modeling, GIS analysis, validation, and communication."
+  },
+  {
+    "objectID": "projects/lidar-habitat.html#stack",
+    "href": "projects/lidar-habitat.html#stack",
+    "title": "Drone and LiDAR Habitat Modeling",
+    "section": "Stack",
+    "text": "Stack\nArcGIS Pro, Drone2Map, CloudCompare, PDAL, QGIS, Python, Rasterio, GeoPandas, or your actual stack."
+  },
+  {
+    "objectID": "projects/asap.html",
+    "href": "projects/asap.html",
+    "title": "Aerial Swath Analysis Platform",
+    "section": "",
+    "text": "Aerial granular application calibration produces spatially detailed swath-card data, but turning those measurements into consistent, interpretable outputs can be slow and difficult to reproduce."
+  },
+  {
+    "objectID": "projects/asap.html#problem",
+    "href": "projects/asap.html#problem",
+    "title": "Aerial Swath Analysis Platform",
+    "section": "",
+    "text": "Aerial granular application calibration produces spatially detailed swath-card data, but turning those measurements into consistent, interpretable outputs can be slow and difficult to reproduce."
+  },
+  {
+    "objectID": "projects/asap.html#data",
+    "href": "projects/asap.html#data",
+    "title": "Aerial Swath Analysis Platform",
+    "section": "Data",
+    "text": "Data\n\nSwath-card locations\nGranular counts or application-rate measurements\nFlight/application metadata\nCalibration trial design information"
+  },
+  {
+    "objectID": "projects/asap.html#methods",
+    "href": "projects/asap.html#methods",
+    "title": "Aerial Swath Analysis Platform",
+    "section": "Methods",
+    "text": "Methods\n\nData cleaning and QA/QC\nSpatial interpolation or profile modeling\nSwath-width and uniformity metrics\nInteractive charts and maps\nExportable reports"
+  },
+  {
+    "objectID": "projects/asap.html#outputs",
+    "href": "projects/asap.html#outputs",
+    "title": "Aerial Swath Analysis Platform",
+    "section": "Outputs",
+    "text": "Outputs\nAdd screenshots or embeds here:\n\nSwath profile chart\nUniformity plot\nInteractive map\nSummary table\nExample report"
+  },
+  {
+    "objectID": "projects/asap.html#impact",
+    "href": "projects/asap.html#impact",
+    "title": "Aerial Swath Analysis Platform",
+    "section": "Impact",
+    "text": "Impact\nDescribe the operational value clearly: faster calibration review, better parameter selection, reproducible analysis, and clearer communication between field operations and technical staff."
+  },
+  {
+    "objectID": "projects/asap.html#my-role",
+    "href": "projects/asap.html#my-role",
+    "title": "Aerial Swath Analysis Platform",
+    "section": "My role",
+    "text": "My role\nLead developer / analyst / project designer. Replace this with the precise role you want to claim."
+  },
+  {
+    "objectID": "projects/asap.html#stack",
+    "href": "projects/asap.html#stack",
+    "title": "Aerial Swath Analysis Platform",
+    "section": "Stack",
+    "text": "Stack\nPython, R, Shiny, Quarto, Leaflet, GeoPandas, ArcGIS, or whatever is actually used."
+  },
+  {
+    "objectID": "projects/asap.html#links",
+    "href": "projects/asap.html#links",
+    "title": "Aerial Swath Analysis Platform",
+    "section": "Links",
+    "text": "Links\n\nGitHub repository: https://github.com/atom-geo/REPO-NAME\nLive demo: https://example.com\nPresentation or abstract: https://example.com"
+  },
+  {
+    "objectID": "notebooks/bgcounter-analysis.html",
+    "href": "notebooks/bgcounter-analysis.html",
+    "title": "BG-Counter Performance Analysis",
+    "section": "",
+    "text": "Evaluation of BG-Counter Performance in Surveilling Collier County’s Diverse Mosquito Populations"
+  },
+  {
+    "objectID": "notebooks/bgcounter-analysis.html#question",
+    "href": "notebooks/bgcounter-analysis.html#question",
+    "title": "BG-Counter Performance Analysis",
+    "section": "",
+    "text": "Evaluation of BG-Counter Performance in Surveilling Collier County’s Diverse Mosquito Populations"
+  },
+  {
+    "objectID": "notebooks/bgcounter-analysis.html#backgroundintro",
+    "href": "notebooks/bgcounter-analysis.html#backgroundintro",
+    "title": "BG-Counter Performance Analysis",
+    "section": "Background/Intro",
+    "text": "Background/Intro"
+  },
+  {
+    "objectID": "notebooks/bgcounter-analysis.html#data-sensitivity-note",
+    "href": "notebooks/bgcounter-analysis.html#data-sensitivity-note",
+    "title": "BG-Counter Performance Analysis",
+    "section": "Data sensitivity note",
+    "text": "Data sensitivity note\nThis notebook contains generalized trap point locations"
+  },
+  {
+    "objectID": "notebooks/bgcounter-analysis.html#load-libraries",
+    "href": "notebooks/bgcounter-analysis.html#load-libraries",
+    "title": "BG-Counter Performance Analysis",
+    "section": "Load libraries",
+    "text": "Load libraries\n\n\nCode\nlibrary(tidyverse)\nlibrary(sf)"
+  },
+  {
+    "objectID": "notebooks/bgcounter-analysis.html#inspect-data",
+    "href": "notebooks/bgcounter-analysis.html#inspect-data",
+    "title": "BG-Counter Performance Analysis",
+    "section": "Inspect data",
+    "text": "Inspect data\n\n\nCode\n# glimpse"
+  },
+  {
+    "objectID": "notebooks/bgcounter-analysis.html#data-tidy-transformation",
+    "href": "notebooks/bgcounter-analysis.html#data-tidy-transformation",
+    "title": "BG-Counter Performance Analysis",
+    "section": "Data tidy & transformation",
+    "text": "Data tidy & transformation\n\n\nCode\nglimpse()"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a spatial data scientist and GIS professional working at the intersection of public health, remote sensing, and integrated pest management.\nMy primary focus is turning environmental and surveillance data into tools that help teams prioritize effort, understand risk, and communicate decisions early."
+  },
+  {
+    "objectID": "about.html#areas-of-interest",
+    "href": "about.html#areas-of-interest",
+    "title": "About",
+    "section": "Areas of interest",
+    "text": "Areas of interest\n\nSpatial data science for vector control\nIntegrated pest management\nUnmanned Aerial Systems (UAS)\nMosquito surveillance dashboards\nPublic-health GIS communication\nReproducible notebooks and open-source tools"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\n\nGitHub: https://github.com/atom-geo\nLinkedIn: https://www.linkedin.com/in/atom-rosales-659754380/\nEmail: arosales@cmcd.org"
+  },
+  {
+    "objectID": "notebooks/index.html",
+    "href": "notebooks/index.html",
+    "title": "Research Notebooks",
+    "section": "",
+    "text": "This section is to demonstrate my analytical and data wrangling skills: - data cleaning - exploratory analysis - maps - spatial methods, limitations, and interpretation\nUse public, anonymized, aggregated, or synthetic data when operational data cannot be released!\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\nDate\n\n\n\nCategories\n\n\n\n\n\n\n\n\nBG-Counter Performance Analysis\n\n\nA reproducible R notebook template for trap-count agreement and species-composition analysis\n\n\nJan 1, 2025\n\n\nsurveillance, statistics, mosquito control, R, reproducible analysis\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Soemthing something description of key projects to display\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAerial Swath Analysis Platform\n\n\nProcessing and visualizing granular aerial application calibration data\n\n\n\nGIS\n\nmosquito control\n\naerial application\n\nopen source\n\nvisualization\n\n\n\nA reproducible spatial-analysis workflow for aerial swath calibration, uniformity assessment, and operational decision support.\n\n\n\n\n\n\n\n\n\n\n\n\nDrone and LiDAR Habitat Modeling\n\n\nMapping mosquito production habitat from high-resolution elevation data\n\n\n\nremote sensing\n\nLiDAR\n\nUAS\n\nhabitat modeling\n\nGIS\n\n\n\nA remote-sensing and field-validation workflow for identifying mosquito habitat in complex coastal environments.\n\n\n\n\n\n\n\n\n\n\n\n\nMosquitofish Distribution Workflow\n\n\nSpatial workflow design for biological control logistics\n\n\n\nbiological control\n\noperations\n\nGIS\n\nworkflow design\n\npublic service\n\n\n\nA GIS-enabled operational workflow for managing public requests, location validation, scheduling, and biological control distribution.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/mosquitofish-workflow.html",
+    "href": "projects/mosquitofish-workflow.html",
+    "title": "Mosquitofish Distribution Workflow",
+    "section": "",
+    "text": "Public request programs can break down when forms, locations, eligibility checks, scheduling, and field records are disconnected."
+  },
+  {
+    "objectID": "projects/mosquitofish-workflow.html#problem",
+    "href": "projects/mosquitofish-workflow.html#problem",
+    "title": "Mosquitofish Distribution Workflow",
+    "section": "",
+    "text": "Public request programs can break down when forms, locations, eligibility checks, scheduling, and field records are disconnected."
+  },
+  {
+    "objectID": "projects/mosquitofish-workflow.html#workflow",
+    "href": "projects/mosquitofish-workflow.html#workflow",
+    "title": "Mosquitofish Distribution Workflow",
+    "section": "Workflow",
+    "text": "Workflow\n\nResident request submitted\nAddress or site location validated\nEligibility and service-area checks completed\nAppointment or route planned\nDistribution recorded\nDashboard updated\nFollow-up or reporting completed"
+  },
+  {
+    "objectID": "projects/mosquitofish-workflow.html#spatial-components",
+    "href": "projects/mosquitofish-workflow.html#spatial-components",
+    "title": "Mosquitofish Distribution Workflow",
+    "section": "Spatial components",
+    "text": "Spatial components\n\nGeocoding\nService-area validation\nPickup/delivery logistics\nDashboard monitoring\nRequest-density mapping"
+  },
+  {
+    "objectID": "projects/mosquitofish-workflow.html#outputs",
+    "href": "projects/mosquitofish-workflow.html#outputs",
+    "title": "Mosquitofish Distribution Workflow",
+    "section": "Outputs",
+    "text": "Outputs\nAdd screenshots or diagrams here:\n\nRequest intake workflow\nDashboard screenshot\nGeneralized request-density map\nProcess diagram"
+  },
+  {
+    "objectID": "projects/mosquitofish-workflow.html#impact",
+    "href": "projects/mosquitofish-workflow.html#impact",
+    "title": "Mosquitofish Distribution Workflow",
+    "section": "Impact",
+    "text": "Impact\nDescribe improvements such as fewer no-shows, cleaner records, better scheduling, reduced manual entry, and improved resident service."
+  },
+  {
+    "objectID": "projects/mosquitofish-workflow.html#my-role",
+    "href": "projects/mosquitofish-workflow.html#my-role",
+    "title": "Mosquitofish Distribution Workflow",
+    "section": "My role",
+    "text": "My role\nDescribe your role in workflow design, GIS implementation, dashboarding, automation, or program support."
   }
 ]

@@ -1,0 +1,30 @@
+[
+  {
+    "listing": "/cv.html",
+    "items": [
+      "/about.html",
+      "/projects/asap.html",
+      "/index.html",
+      "/notebooks/bgcounter-analysis.html",
+      "/projects/lidar-habitat.html",
+      "/projects/mosquitofish-workflow.html",
+      "/projects/index.html",
+      "/publications/index.html",
+      "/notebooks/index.html"
+    ]
+  },
+  {
+    "listing": "/notebooks/index.html",
+    "items": [
+      "/notebooks/bgcounter-analysis.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/asap.html",
+      "/projects/lidar-habitat.html",
+      "/projects/mosquitofish-workflow.html"
+    ]
+  }
+]

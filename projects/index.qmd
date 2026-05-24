@@ -1,13 +1,13 @@
 ---
 title: "Projects"
-subtitle: "Case studies in spatial data science, GIS, mosquito control, and public health operations."
+subtitle: "Case studies in spatial data science, GIS, integrated pest management, and public health."
 listing:
   contents: "*.qmd"
   type: grid
   sort: "date desc"
-  categories: true
+  categories: false
   fields: [image, title, subtitle, description, categories]
 page-layout: full
 ---
 
-Use this page as the gallery for your strongest work. Keep the number of featured projects small at first. Three polished case studies are better than ten unfinished ones.
+Soemthing something description of key projects to display

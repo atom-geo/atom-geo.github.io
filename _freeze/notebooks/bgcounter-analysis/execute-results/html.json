@@ -1,0 +1,15 @@
+{
+  "hash": "4333ab6374b0294e61f0d33794f14d0e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"BG-Counter Performance Analysis\"\nsubtitle: \"A reproducible R notebook template for trap-count agreement and species-composition analysis\"\ndate: 2025-01-01\ncategories: [surveillance, statistics, mosquito control, R, reproducible analysis]\nexecute:\n  eval: false\n  echo: true\n  warning: false\n  message: false\n---\n\n## Question\n\nEvaluation of BG-Counter Performance in Surveilling Collier County's Diverse Mosquito Populations\n\n## Background/Intro\n\n\n## Data sensitivity note\n\nThis notebook contains generalized trap point locations\n\n## Load libraries\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\nlibrary(sf)\n```\n:::\n\n\n## Inspect data\n\n::: {.cell}\n\n```{.r .cell-code}\n# glimpse\n```\n:::\n\n## Data tidy & transformation\n\n\n::: {.cell}\n\n```{.r .cell-code}\nglimpse()\n```\n:::\n\n\n\n## \n\n::: {.cell}\n\n:::\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
