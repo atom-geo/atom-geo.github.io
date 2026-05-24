@@ -16,12 +16,8 @@ website:
         href: projects/index.qmd
       - text: "Notebooks"
         href: notebooks/index.qmd
-      - text: "Publications"
-        href: publications/index.qmd
       - text: "CV"
         href: cv.qmd
-      - text: "About"
-        href: about.qmd
     right:
       - icon: github
         href: https://github.com/atom-geo

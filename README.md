@@ -1,6 +1,6 @@
 # Atom Rosales portfolio
 
-This is a Quarto-powered professional portfolio for spatial data science, GIS, mosquito control, UAS/LiDAR workflows, notebooks, publications, and CV materials.
+This is a Quarto-powered professional portfolio for spatial data science, GIS, mosquito control, UAS/LiDAR workflows, notebooks, and CV materials.
 
 ## Local preview
 
@@ -26,6 +26,5 @@ Settings → Pages → Build and deployment → Source → GitHub Actions
    - `projects/asap.qmd`
    - `projects/lidar-habitat.qmd`
    - `projects/mosquitofish-workflow.qmd`
-5. Add publication citations and presentation links in `publications/index.qmd`.
-6. Add a public or synthetic notebook in `notebooks/bgcounter-analysis.qmd`.
+5. Add a public or synthetic notebook in `notebooks/bgcounter-analysis.qmd`.
 
