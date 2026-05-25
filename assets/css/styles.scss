@@ -108,3 +108,128 @@ img {
     padding-top: 1rem;
   }
 }
+
+/* CV page styling */
+
+:root {
+  --atom-muted: #5f6f73;
+  --atom-bg: #fbfaf7;
+  --atom-panel: #ffffff;
+  --atom-secondary: #2f7f86;
+  --atom-accent: #c79a3b;
+  --atom-border: #d9e2df;
+  --atom-soft: rgba(29, 95, 74, 0.055);
+}
+
+body {
+  background:
+    linear-gradient(180deg, rgba(29, 95, 74, 0.035), transparent 18rem),
+    var(--atom-bg);
+}
+
+main.content {
+  max-width: 980px;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.025em;
+}
+
+h1 {
+  font-weight: 750;
+}
+
+h2 {
+  margin-top: 2.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--atom-border);
+  color: $primary;
+}
+
+h3 {
+  margin-top: 1.75rem;
+}
+
+p {
+  line-height: 1.65;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
+
+.cv-profile {
+  border-left: 4px solid $primary;
+  background: var(--atom-soft);
+  padding: 1.1rem 1.35rem;
+  border-radius: 0.75rem;
+  margin: 1.25rem 0 2rem 0;
+}
+
+.cv-profile p:last-child {
+  margin-bottom: 0;
+}
+
+.cv-competencies ul {
+  columns: 2;
+  column-gap: 2.5rem;
+}
+
+.cv-competencies li {
+  break-inside: avoid;
+  margin-bottom: 0.65rem;
+}
+
+.cv-project {
+  border: 1px solid var(--atom-border);
+  border-radius: 1rem;
+  background: var(--atom-panel);
+  box-shadow: 0 8px 24px rgba(31, 41, 51, 0.055);
+  padding: 1.25rem 1.35rem;
+  margin: 1.1rem 0;
+}
+
+.cv-project h3 {
+  margin-top: 0;
+  color: $primary;
+}
+
+.cv-project p:last-child,
+.cv-project ul:last-child {
+  margin-bottom: 0;
+}
+
+.cv-role-current {
+  border-left: 4px solid $primary;
+  padding-left: 1.25rem;
+  margin-top: 1rem;
+}
+
+#professional-experience h3 {
+  color: $primary;
+}
+
+#professional-experience h3 + p {
+  color: var(--atom-muted);
+}
+
+#publications p,
+#presentations p,
+#teaching-and-workshops p {
+  margin-bottom: 1rem;
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a.active {
+  color: $primary !important;
+  border-left-color: $primary !important;
+}
+
+@media (max-width: 768px) {
+  .cv-competencies ul {
+    columns: 1;
+  }
+
+  main.content {
+    max-width: 100%;
+  }
+}
