@@ -26,7 +26,6 @@ My applied experience is rooted in mosquito control and integrated pest manageme
 - Spatial data science for public health surveillance, environmental monitoring, treatment planning, and vector-borne disease prevention
 - GIS program administration, relational databases, dashboards, field data systems, and operational web applications
 - R and Python workflows for reproducible reporting, surveillance summaries, treatment threshold analysis, QA/QC, and operational metrics
-- Spatial analysis of surveillance, treatment, environmental, remote-sensing, and field-collected data
 - UAS program leadership, operator training, aerial applications, and remote-sensing data acquisition
 - Drone regulatory compliance, FAA Part 107 operations, Public COA management, operational waivers, and public-sector UAS risk management
 - Team leadership, technical training, workflow development, and cross-functional coordination between field, laboratory, aviation, and operations staff

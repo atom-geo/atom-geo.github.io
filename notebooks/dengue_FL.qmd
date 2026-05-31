@@ -1,0 +1,123 @@
+---
+title: "Dengue in Florida: Investigating Spatial Associations (2009-2024)"
+subtitle: "XXX"
+date: 2025-01-01
+categories: [surveillance, statistics, mosquito control, R, reproducible analysis, dengue, florida]
+execute:
+  eval: false
+  echo: true
+  warning: false
+  message: false
+---
+
+## Introduction
+
+Dengue is a persistent global health threat due to global travel patterns and abundance of the mosquito vector, Ae. aegypti, responsible for its transmission in populated, urban areas. Dengue can only spread to people through the bite of an infected mosquito. Likewise, mosquitoes can become infected with dengue virus when biting an infected person. Historically, the mosquito vector was introduced into the Americas by sailing ships in water containers which contained viable eggs (Wilder-Smith & Gubler 2008). In the United States, Florida is uniquely vulnerable because of its subtropic climate, frequent travel between and proximity to dengue endemic countries, and presence competent vectors, Ae. aegypti and Ae, albopictus. Previous research has shown that temperature, humidity, and precipitation are strong predictors for dengue occurrence in Florida (Stephenson et al., 2022). The sub-tropical climate of Florida represents an ideal habitat for dengue-competent vector species such as Ae. aegypti. In addition, the number of travel-related cases has been associated with an increase in local transmission of dengue.
+
+Although the majority of dengue cases in Florida occur when individuals travel and contract the disease abroad in dengue-endemic countries, Florida possess a unique combination of sub-tropical climate, urbanization, abundance of Ae. aegypti, and frequent international travel, creating suitable conditions for periodic local transmission. Local transmission of dengue occurs primarily in Florida’s southernmost counties (Rey, 2014). Although vertical transmission of dengue, where an infected female mosquito can infect her progeny has been documented (Ferreira-de-Lima & Lima Camara, 2018), local transmission of dengue in Florida is most dependent upon the number of imported cases which increase the likelihood of horizontal transmission from an infected person to a mosquito occurring. Understanding the spatial and temporal patterns associated with the transmission of dengue is vital towards safeguarding against its continued spread and establishment in local mosquito populations.
+
+Consequently, this research project aims to answer the following questions: What is the spatial distribution of dengue incident rates at a county level in Florida? Do incidence rates for travel and locally-acquired dengue transmission exhibit spatial clustering or randomness? Finally, what is the relationship between locally-acquired dengue incidence and travel-related incidence at the county-level?
+## Background/Intro
+
+
+## Data
+
+Dengue case information was obtained from the Florida Department of Health and aggregated by year, month, county, serotype detected and categorized as either travel-related or locally acquired from 2009 to 2024. The dates associated with travel-related cases correspond to when the onset of symptoms began, whereas locally-acquired cases correspond to when the patient received care—Cases include both Florida and non-Florida residents. For travel cases, the reported county indicates the county of residence of the patient, whereas local cases represent the county where care was sought. Confirmed cases in the data set were determined by the Council of State and Territorial Epidemiologist (CSTE) case definitions which provide uniform reporting standards and criteria for infectious diseases. County-level population estimates for 2023 were obtained from the American Community Survey (ACS) five-year estimates retrieved using the tidycensus package (Walker & Herman, 2025). The unit of analysis for this project is at the county-level due to the aggregation provided by the Florida Department of Health. The two primary data sets utilized for this project are displayed in Table 1.
+
+## Processing
+
+The processing, analysis, and visualization of dengue case data were conducted using the R programming language, utilizing a variety of libraries. The tidyverse suite of packages was used for data transformation, along with the here and janitor packages for simplifying data file directories and data cleaning tasks. Retrieval of demographic and population data from the U.S. Census Bureau was accomplished by leveraging the tidycensus library. For spatial analysis, sf was used for handling county-level vector data sets and spdep facilitated the construction of spatial weight matrices for assessing spatial autocorrelation. Map figures were generated using the tmap, leaflet, and leafpop libraries. Statistical summaries and data tables were created using knitr and kableExtra for ease of formatting.
+
+## Load libraries
+
+```{r}
+# load library
+library(tidyverse)     # tidyverse 
+library(tidycensus)    # acquire census data
+library(here)          # path references
+library(janitor)       # data cleaning
+library(sf)            # handle simple features, vector spatial data
+library(tmap)          # another mapping package
+library(spdep)         # for spatial autocorrelation, setting spatial matrix
+library(kableExtra)    # table formatting
+library(plotly)        # interactive plots
+library(ggiraph)       # interactive graphics
+library(leaflet)       # leaflet maps
+library(leafpop)       # create pop-ups for leaflet maps
+
+# cache TIGRIS data for offline use
+options(tigris_use_cache = TRUE)
+
+```
+
+The dengue dataset contains 1,063 records across five variables capturing the spatial and temporal distribution of dengue cases in Florida from 2009 to 2024. The dataset was provided at the county-level and grouped by year, month, and county, with travel and locally-acquired cases separately summarized. For data preparation, the CSV file was imported, cleaned, and reformatted. Variable names and values were standardized to be consistent between case types—records where county of residence or infection could not be determined were removed from the dataset. In the final, transformed dataset, dengue.w, the travel variable represents the number of travel-related cases for each county, year, and month. Whereas the local variable indicates the number of locally acquired cases. Counties and months without reported cases were assigned zero values to maintain consistency between case types. The dataset structure is illustrated in Table 2. Table 3 present the dengue case data summarized by county for the 25-year period.
+## Inspect data
+```{r}
+# load dengue data from csv
+dengue <- read_csv(here('data', 'dengueCasesFL.csv'))
+
+# clean & transform dengue data set
+clean_dengue <- dengue %>%
+  # clean names to camel case
+  clean_names(., "lower_camel") %>%
+  # replace 'unknown' value with 'Unknown' for consistency between travel & imported cases
+  mutate(serotype = str_replace(serotypeDetected, 'unknown', 'Unknown')) %>%
+  # drop duplicate stereotype column
+  select(-serotypeDetected) %>%
+  # filter out unknown county rows
+  filter(county != 'Unknown County of Exposure')
+
+# pivot wider
+dengue.w <- clean_dengue %>%
+  # group by year, month, county
+  group_by(year,month,county,caseType) %>%
+  # summarize
+  summarize(cases = sum(numberOfCases)) %>%
+  # get names from case type
+  pivot_wider(names_from = caseType, 
+              # get values from number of cases
+              values_from = cases,
+              # set fill value to 0 (for NA values)
+              values_fill = 0)
+```
+
+
+```{r}
+# summarize dengue data set by county
+summary.county <- dengue.w %>%
+  # group by county
+  group_by(county) %>%
+  # sum local cases
+  summarize(sumLocal = sum(local),
+            # sum travel cases
+            sumTravel = sum(travel),
+            # sum all cases
+            sumAll = sumLocal+sumTravel) %>%
+  # arrange by descending order
+  arrange(-sumAll)
+
+# create clean, formatted table with top 10 counties
+summary.county %>%
+  # get top 10 rows for all cases
+  top_n(10, sumAll) %>%
+  # arrange by desc order
+  arrange(-sumAll) %>%
+  # create kable table
+  kable(col.names = c("County","Local","Travel",'All'), # set column names
+        # set table caption
+        caption = "Top 10 Florida Counties with Highest Dengue Cases (2009 to 2024") %>%
+  # set kable styling 
+  kable_styling(full_width = TRUE,   # full width table 
+                # font size
+                font_size=14)
+```
+
+
+## 
+```{r}
+
+```
+
+
+
+
