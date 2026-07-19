@@ -1,7 +1,7 @@
 ---
-title: "Atom Rosales"
-subtitle: "Spatial data science, GIS, and operational analytics for public health mosquito control."
-listing: false
+pagetitle: "Atom Rosales | Spatial Data Science and Public Health"
+description: "Spatial data science, GIS, and operational analytics for public health mosquito control."
+image: assets/social/atom-rosales-social.png
 ---
 
 ::: {.home-intro}
@@ -12,7 +12,13 @@ listing: false
 
 Spatial data science, GIS, and operational analytics for public health mosquito control.
 
-I build geospatial workflows, dashboards, analysis notebooks, and field-to-decision systems for vector surveillance, UAS operations, treatment planning, and integrated mosquito management.
+I build geospatial workflows, dashboards, and field-to-decision systems for vector surveillance, UAS operations, treatment planning, and integrated mosquito management.
+
+::: {.home-actions}
+[About](about.qmd){.btn .btn-primary}
+[Download résumé](assets/about/Atom_Rosales_Resume.pdf){.btn .btn-outline-primary}
+[Contact on LinkedIn](https://www.linkedin.com/in/atom-rosales-659754380/){.btn .btn-link}
+:::
 
 :::
 
@@ -27,4 +33,4 @@ I build geospatial workflows, dashboards, analysis notebooks, and field-to-decis
 
 :::
 
-
+:::

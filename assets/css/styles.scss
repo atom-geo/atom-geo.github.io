@@ -43,17 +43,18 @@ body {
   line-height: 1.65;
 }
 
-.home-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.25rem;
+.home-actions,
+.about-actions {
   margin-top: 1.5rem;
-  font-weight: 650;
 }
 
-.home-links a {
-  text-decoration: none;
-  border-bottom: 2px solid $primary;
+.home-actions p,
+.about-actions p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 0;
 }
 
 .home-notes {
@@ -68,17 +69,6 @@ body {
 
 .home-notes li {
   margin-bottom: 0.45rem;
-}
-
-.project-card {
-  height: 100%;
-  padding: 1.25rem;
-  border: 1px solid #e5ece9;
-  border-radius: 0.75rem;
-}
-
-.project-card h3 {
-  margin-top: 0;
 }
 
 .btn {
@@ -109,7 +99,7 @@ img {
   }
 }
 
-/* CV page styling */
+/* About page styling */
 
 :root {
   --atom-muted: #5f6f73;
@@ -127,38 +117,40 @@ body {
     var(--atom-bg);
 }
 
-main.content {
+body.about-page main.content {
   max-width: 980px;
 }
 
-h1, h2, h3 {
+body.about-page h1,
+body.about-page h2,
+body.about-page h3 {
   letter-spacing: -0.025em;
 }
 
-h1 {
+body.about-page h1 {
   font-weight: 750;
 }
 
-h2 {
+body.about-page h2 {
   margin-top: 2.75rem;
   padding-bottom: 0.35rem;
   border-bottom: 1px solid var(--atom-border);
   color: $primary;
 }
 
-h3 {
+body.about-page h3 {
   margin-top: 1.75rem;
 }
 
-p {
+body.about-page p {
   line-height: 1.65;
 }
 
-li {
+body.about-page li {
   margin-bottom: 0.35rem;
 }
 
-.cv-profile {
+.about-profile {
   border-left: 4px solid $primary;
   background: var(--atom-soft);
   padding: 1.1rem 1.35rem;
@@ -166,21 +158,21 @@ li {
   margin: 1.25rem 0 2rem 0;
 }
 
-.cv-profile p:last-child {
+.about-profile p:last-child {
   margin-bottom: 0;
 }
 
-.cv-competencies ul {
+.about-competencies ul {
   columns: 2;
   column-gap: 2.5rem;
 }
 
-.cv-competencies li {
+.about-competencies li {
   break-inside: avoid;
   margin-bottom: 0.65rem;
 }
 
-.cv-project {
+.about-project {
   border: 1px solid var(--atom-border);
   border-radius: 1rem;
   background: var(--atom-panel);
@@ -189,17 +181,17 @@ li {
   margin: 1.1rem 0;
 }
 
-.cv-project h3 {
+.about-project h3 {
   margin-top: 0;
   color: $primary;
 }
 
-.cv-project p:last-child,
-.cv-project ul:last-child {
+.about-project p:last-child,
+.about-project ul:last-child {
   margin-bottom: 0;
 }
 
-.cv-role-current {
+.about-role-current {
   border-left: 4px solid $primary;
   padding-left: 1.25rem;
   margin-top: 1rem;
@@ -225,11 +217,22 @@ li {
 }
 
 @media (max-width: 768px) {
-  .cv-competencies ul {
+  .about-competencies ul {
     columns: 1;
   }
 
-  main.content {
+  body.about-page main.content {
     max-width: 100%;
+  }
+
+  .home-actions p,
+  .about-actions p {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .home-actions .btn,
+  .about-actions .btn {
+    width: 100%;
   }
 }

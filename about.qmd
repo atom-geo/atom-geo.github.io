@@ -1,6 +1,9 @@
 ---
-title: "Curriculum Vitae"
+title: "About"
 subtitle: "Spatial data science, GIS, vector surveillance, and operational analytics for public health and integrated pest management programs."
+description: "Professional background, experience, education, publications, and leadership of Atom Rosales."
+image: assets/social/atom-rosales-social.png
+body-classes: about-page
 format:
   html:
     toc: true
@@ -9,9 +12,15 @@ format:
     toc-title: "Contents"
 ---
 
+::: {.about-actions}
+[Download résumé](assets/about/Atom_Rosales_Resume.pdf){.btn .btn-primary}
+[Contact on LinkedIn](https://www.linkedin.com/in/atom-rosales-659754380/){.btn .btn-outline-primary}
+[GitHub](https://github.com/atom-geo){.btn .btn-outline-secondary}
+:::
+
 ## Profile
 
-::: {.cv-profile}
+::: {.about-profile}
 
 Spatial data science and public health professional specializing in GIS, remote sensing, UAS operations, surveillance analytics, and operational decision support. My work focuses on transforming environmental, field, treatment, and surveillance data into spatial systems that support vector-borne disease prevention, regulatory compliance, emergency response, and defensible public health operations.
 
@@ -21,7 +30,7 @@ My applied experience is rooted in mosquito control and integrated pest manageme
 
 ## Core Competencies
 
-::: {.cv-competencies}
+::: {.about-competencies}
 
 - Spatial data science for public health surveillance, environmental monitoring, treatment planning, and vector-borne disease prevention
 - GIS program administration, relational databases, dashboards, field data systems, and operational web applications
@@ -62,7 +71,7 @@ December 2017
 
 ## Selected Applied Research and Projects
 
-::: {.cv-project}
+::: {.about-project}
 
 ### Master's Capstone: Drone-Applied Granular Larvicide Swath Characterization
 
@@ -76,7 +85,7 @@ Developed a reproducible spatial analysis workflow to evaluate deposition patter
 
 :::
 
-::: {.cv-project}
+::: {.about-project}
 
 ### Aerial Swath Analysis Platform
 
@@ -84,7 +93,7 @@ Developing a reproducible analytical and visualization program for processing ae
 
 :::
 
-::: {.cv-project}
+::: {.about-project}
 
 ### Drone-Based LiDAR Habitat Mapping
 
@@ -94,7 +103,7 @@ Applied UAS-based LiDAR and remote-sensing workflows to support characterization
 
 ## Professional Experience
 
-::: {.cv-role-current}
+::: {.about-role-current}
 
 ### Director of Technical Development
 
@@ -181,7 +190,7 @@ May 2018--December 2018
 
 ### Peer-reviewed Articles
 
-Lucas, K. J., McDuffie, D., Gutierrez, I., Kacinsakas, S., **Rosales, A.**, Konieczny, O., & Luna, C. (2026). Susceptibility status of *Aedes aegypti* populations to naled in Collier County, Florida. *Journal of the American Mosquito Control Association, 00*(00), 000--000. https://doi.org/10.2987/26-7290
+Lucas, K. J., McDuffie, D., Gutierrez, I., Kacinsakas, S., **Rosales, A.**, Konieczny, O., & Luna, C. (2026). Susceptibility status of *Aedes aegypti* populations to naled in Collier County, Florida. *Journal of the American Mosquito Control Association*. Advance online publication. https://doi.org/10.2987/26-7290
 
 Kuppe, C. R., Duett, M., Arber, K., **Rosales, A.**, Bonaccorsi, J., Oliva, D., Diclaro, J. W., II, & Qualls, W. A. (2026). Operational evaluation of unmanned aerial vehicle-applied granular larvicides in an integrated mosquito management program. *Acta Tropica*. https://doi.org/10.1016/j.actatropica.2026.108146
 
