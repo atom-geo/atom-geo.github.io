@@ -1,36 +1,43 @@
 ---
 pagetitle: "Atom Rosales | Spatial Data Science and Public Health"
-description: "Spatial data science, GIS, and operational analytics for public health mosquito control."
+description: "Geospatial tools and analytical workflows for surveillance, remote sensing, field operations, and defensible decision making."
 image: assets/social/atom-rosales-social.png
+body-classes: home-page
 ---
+
+::: {.home-banner}
+<img src="assets/home/atom-dodd-banner.jpg" class="home-banner-image" alt="Atom Rosales presenting a professional workshop on data analysis.">
+:::
 
 ::: {.home-intro}
 
-::: {.home-text}
+# Welcome to my portfolio!
 
-# Atom Rosales
+I am a spatial data scientist and public health professional working at the intersection of geographic information systems, mosquito control, remote sensing, and field operations.
 
-Spatial data science, GIS, and operational analytics for public health mosquito control.
+I build geospatial tools and analytical workflows that connect surveillance, remote sensing, and field operations. My work helps organizations transform complex data to clear, defensible actions.
 
-I build geospatial workflows, dashboards, and field-to-decision systems for vector surveillance, UAS operations, treatment planning, and integrated mosquito management.
-
-::: {.home-actions}
-[About](about.qmd){.btn .btn-primary}
-[Download résumé](assets/about/Atom_Rosales_Resume.pdf){.btn .btn-outline-primary}
-[Contact on LinkedIn](https://www.linkedin.com/in/atom-rosales-659754380/){.btn .btn-link}
-:::
+I currently lead technical development at Collier Mosquito Control District, where I work across GIS, spatial analytics, unmanned aircraft systems, and operational mosquito control.
 
 :::
 
-::: {.home-notes}
+::: {.home-sections}
 
-**About**
+::: {.home-section}
+## About
 
-- Vector surveillance and mosquito control operations
-- GIS, dashboards, and field data systems
-- UAS, LiDAR, and remote sensing workflows
-- Reproducible spatial analysis for public health decision support
+This is my professional portfolio. It brings together selected work in spatial data science, GIS, UAS, remote sensing, and public health operations.
 
+For more about my background and how I came to this work, visit the [About page](about.qmd) or [download my CV](assets/about/Atom_Rosales_Resume.pdf).
+:::
+
+::: {.home-section}
+## Connect
+
+- Email me at [atommrosales@gmail.com](mailto:atommrosales@gmail.com).
+- Track my scholarly work on [ORCID](https://orcid.org/0000-0001-8702-1194).
+- Find my publications on [Google Scholar](https://scholar.google.com/citations?user=OHq3Kv4AAAAJ&hl=en).
+- See my code projects on [GitHub](https://github.com/atom-geo).
 :::
 
 :::

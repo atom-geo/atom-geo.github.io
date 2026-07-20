@@ -1,7 +1,6 @@
 ---
-title: "About"
-subtitle: "Spatial data science, GIS, vector surveillance, and operational analytics for public health and integrated pest management programs."
-description: "Professional background, experience, education, publications, and leadership of Atom Rosales."
+title: "About Me"
+subtitle: "Spatial data science, GIS, and practical problem solving for public health."
 image: assets/social/atom-rosales-social.png
 body-classes: about-page
 format:
@@ -13,268 +12,41 @@ format:
 ---
 
 ::: {.about-actions}
-[Download résumé](assets/about/Atom_Rosales_Resume.pdf){.btn .btn-primary}
-[Contact on LinkedIn](https://www.linkedin.com/in/atom-rosales-659754380/){.btn .btn-outline-primary}
-[GitHub](https://github.com/atom-geo){.btn .btn-outline-secondary}
+[Download CV](assets/about/Atom_Rosales_Resume.pdf){.btn .btn-primary}
 :::
 
-## Profile
+## What I do
 
-::: {.about-profile}
+I am a spatial data scientist and public health professional working at the intersection of GIS, mosquito control, drones, and field operations. I build systems that turn data from traps, laboratories, aircraft, and field crews into information people can use to make better decisions.
 
-Spatial data science and public health professional specializing in GIS, remote sensing, UAS operations, surveillance analytics, and operational decision support. My work focuses on transforming environmental, field, treatment, and surveillance data into spatial systems that support vector-borne disease prevention, regulatory compliance, emergency response, and defensible public health operations.
+At Collier Mosquito Control District, I lead technical development across GIS, spatial analytics, and unmanned aircraft systems. Much of my work involves connecting pieces that are often treated separately, including surveillance data, environmental conditions, treatment records, remote sensing, and the practical realities of field operations.
 
-My applied experience is rooted in mosquito control and integrated pest management, with transferable expertise in geospatial data infrastructure, scientific computing, UAS program management, remote sensing, and team leadership.
+I enjoy working on problems where analysis has a visible operational outcome. That might mean improving how an aerial treatment is calibrated, helping a field team prioritize an area, or making complex surveillance information easier to understand and act on. The tools vary from project to project, but the goal is consistent: produce reliable information that supports effective and defensible public health decisions.
 
-:::
+## How I got here
 
-## Core Competencies
+I did not begin my career expecting to work in spatial data science. I studied philosophy at the University of North Texas and entered mosquito control through hands-on field surveillance. Setting traps, identifying mosquitoes, maintaining equipment, and coordinating field activities gave me an appreciation for how much public health decisions depend on the quality and context of the underlying data.
 
-::: {.about-competencies}
+My interest in GIS grew from wanting to solve practical problems that were difficult to understand from tables alone. One of my earliest GIS projects brought together a county storm sewer dataset and the locations of *Culex quinquefasciatus* mosquito pools that had tested positive for West Nile virus. By examining where positive-pool hotspots aligned with the storm sewer network, I used the existing infrastructure data to identify potential underground breeding sites and help plan a more focused surveillance and response strategy.
 
-- Spatial data science for public health surveillance, environmental monitoring, treatment planning, and vector-borne disease prevention
-- GIS program administration, relational databases, dashboards, field data systems, and operational web applications
-- R and Python workflows for reproducible reporting, surveillance summaries, treatment threshold analysis, QA/QC, and operational metrics
-- UAS program leadership, operator training, aerial applications, and remote-sensing data acquisition
-- Drone regulatory compliance, FAA Part 107 operations, Public COA management, operational waivers, and public-sector UAS risk management
-- Team leadership, technical training, workflow development, and cross-functional coordination between field, laboratory, aviation, and operations staff
+That project showed me how geographic information could connect surveillance results to features in the environment and turn an observed pattern into a practical course of action. It led me further into GIS, programming, data visualization, and spatial analysis. Over time, my work expanded from organizing individual surveillance routes to developing organization-wide data systems, operational dashboards, aerial application analyses, and drone-based remote-sensing workflows.
 
-:::
+I later completed a graduate certificate in geographic information systems and a master's degree in spatial data science at Penn State. My education strengthened the analytical foundation behind work that has always remained grounded in field operations and applied public health.
 
-## Education
+## Research and professional interests
 
-**Master of Science, Spatial Data Science**  
-The Pennsylvania State University, State College, PA  
-May 2026
+I am especially interested in spatial decision-support systems, drone-based remote sensing, and better ways to evaluate and calibrate aerial applications. My recent work includes characterizing granular larvicide swaths, modeling application overlap, using drone-based LiDAR to study mosquito habitat, and developing reproducible tools that make rigorous analysis more accessible to operational teams.
 
-**Post-Baccalaureate Certificate, Geographic Information Systems**  
-The Pennsylvania State University, State College, PA  
-May 2024
+I am also interested in the less visible work that makes technical systems useful over time: thoughtful data structures, clear documentation, quality control, training, and workflows that other people can understand and maintain. A successful tool should do more than produce an answer once. It should help an organization make better decisions consistently.
 
-**Bachelor of Arts, Philosophy**  
-University of North Texas, Denton, TX  
-December 2017
+## A little more about me
 
-**Honors Scholar**  
-University of North Texas, Denton, TX  
-December 2017
+I am a generalist at heart. I enjoy learning how systems work, finding connections across disciplines, and making things that are useful. Depending on the problem, that might involve writing code, working through a map, designing a custom part, testing a piece of field equipment, or translating a technical result for a broader audience.
 
-## Certifications and Licenses
+What continues to draw me to this work is the combination of curiosity, practicality, and public service. Spatial data science gives me a way to explore complicated questions while staying connected to the people, places, and day-to-day decisions the analysis is meant to support.
 
-- FAA Part 107 Remote Pilot Certificate
-- Skydio X10 Certified Operator
-- Skydio X10 Certified Instructor
-- Florida Public Health Pest Control License
-- Florida Aerial Applicator License
-- Public Certificate of Authorization management for large-UAS spray operations
-- FAA waiver experience, including beyond visual line of sight operations and operations over people
+## CV and contact
 
-## Selected Applied Research and Projects
+For a detailed record of my professional experience, education, publications, presentations, and service, [download my CV](assets/about/Atom_Rosales_Resume.pdf).
 
-::: {.about-project}
-
-### Master's Capstone: Drone-Applied Granular Larvicide Swath Characterization
-
-Developed a reproducible spatial analysis workflow to evaluate deposition patterns of VectoMax FG applied from a PrecisionVision 40X UAS. Used transect and grid-based collection data to calculate application rates, simulate overlapping swaths, assess deposition uniformity, and model spatial variation in delivered dosage.
-
-- Processed field-collected granule deposition data from line-transect and grid-based experiments
-- Calculated application rates, replicate variability, coefficient of variation, and swath-width performance metrics
-- Simulated overlapping flight passes to evaluate candidate swath widths against a target application rate
-- Fit spatial trend-surface models to estimate and visualize delivered dosage across the sampled grid
-- Interpreted results for drone-based larvicide calibration, treatment consistency, regulatory compliance, and integrated vector management operations
-
-:::
-
-::: {.about-project}
-
-### Aerial Swath Analysis Platform
-
-Developing a reproducible analytical and visualization program for processing aerial granular application data, evaluating swath width, modeling overlap, and supporting operational calibration of aerial application systems.
-
-:::
-
-::: {.about-project}
-
-### Drone-Based LiDAR Habitat Mapping
-
-Applied UAS-based LiDAR and remote-sensing workflows to support characterization of mosquito production habitat, with emphasis on microtopography, field validation, and treatment prioritization.
-
-:::
-
-## Professional Experience
-
-::: {.about-role-current}
-
-### Director of Technical Development
-
-**Collier Mosquito Control District** — Naples, Florida  
-March 2023--present
-
-Lead spatial data science, GIS, UAS operations, and technical development initiatives that support public health mosquito-control operations. Translate surveillance, treatment, environmental, laboratory, and operational data into geospatial systems, analytical workflows, dashboards, and decision-support tools used across field operations, aviation, laboratory surveillance, and administration.
-
-- Built and modernized geospatial decision-support systems that connect surveillance, treatment planning, field data collection, regulatory reporting, and operational review workflows
-- Developed GIS tools, dashboards, web applications, and data pipelines that improve access to timely operational information for field, laboratory, aviation, and administrative teams
-- Led spatial analysis projects evaluating vector species distribution, surveillance trends, treatment thresholds, operational performance, and environmental drivers of mosquito production
-- Created reproducible analytical workflows using R, Python, GIS, dashboards, and automated reporting tools to improve consistency and expediency of operations
-- Advanced the District's UAS program from individual mission support toward a managed operational capability, including operator coordination, training, documentation, safety practices, and equipment readiness
-- Integrated drone-based photogrammetry, LiDAR, aerial imagery, and larvicide application workflows into mosquito surveillance, habitat assessment, treatment planning, and post-mission review
-- Managed UAS regulatory compliance for FAA Part 107 operations, Public Certificate of Authorization requirements, and operational waivers
-- Evaluated and implemented emerging technologies that improve surveillance, treatment operations, remote sensing, regulatory compliance, and public health decision-making
-
-:::
-
-### Technical Development Specialist
-
-**Collier Mosquito Control District** — Naples, Florida  
-January 2023--March 2023
-
-- Developed automated workflows using R, Jupyter Notebooks, Microsoft Power Automate, ArcGIS Pro script tools, and ArcGIS Online applications to reduce manual data handling and improve repeatability of operational reporting
-- Built dashboards and web maps that made vector species distribution, seasonal abundance, arbovirus activity, and treatment-related data more accessible to operational staff
-- Supported UAS photogrammetry, inspection, treatment, and image-processing workflows, helping translate drone-collected data into usable operational products
-- Assisted with aerial and ground equipment calibration, swath analysis, and treatment-application data review to support more defensible application decisions
-- Maintained drone hardware, firmware, payloads, and mission-readiness documentation to support reliable UAS operations
-- Designed and 3D-printed custom operational components, including mosquito trap parts, nozzles, and drone-related components, to solve field and equipment constraints
-
-### Biologist
-
-**Collier Mosquito Control District** — Naples, Florida  
-September 2022--December 2022
-
-- Analyzed mosquito surveillance data in R to summarize abundance patterns, support treatment threshold calculations, and inform operational decision-making for vector species
-- Cleaned, validated, and quality-checked trap-count data from remote surveillance tools, including BG-Counter traps, to improve reliability of surveillance summaries
-- Developed ArcGIS Online dashboards for mosquito testing pools, mosquitofish distribution, treatment applications, and surveillance communication
-- Supported laboratory disease-testing workflows by maintaining equipment readiness, reagent inventory, mosquito pool preparation, and related operational data records
-
-### Laboratory Technician
-
-**Collier Mosquito Control District** — Naples, Florida  
-October 2022--January 2023
-
-- Conducted RT-PCR testing on mosquito pools for pathogens including West Nile virus, Eastern equine encephalitis virus, and dengue virus
-- Identified, sorted, and prepared mosquitoes for disease testing, surveillance reporting, and experimental use
-- Set and retrieved mosquito surveillance traps, including BG-Sentinel traps, CDC light traps, and ovicups
-- Supported the collection, preparation, and quality control of surveillance data used in public health mosquito-control decisions
-
-### Mosquito Surveillance Field Lead
-
-**The Woodlands Township Environmental Services** — The Woodlands, Texas  
-March 2020--March 2022
-
-- Coordinated adult trap assignments, larval surveillance activities, field routes, and seasonal staff operations to support consistent mosquito surveillance coverage
-- Designed and implemented a mosquito abatement geodatabase using ArcGIS field applications, improving field data collection, route organization, and surveillance documentation
-- Trained seasonal field technicians in adult trapping, larval surveillance, specimen handling, equipment use, and field data protocols
-- Managed rearing workflows and quality control standards for field-collected mosquito specimens and biological control operations
-- Translated field observations and surveillance data into operational priorities for mosquito-control planning
-
-### Administrative Assistant
-
-**Harris County Precinct 4 Biological Control Initiative** — Houston, Texas  
-March 2019--March 2020
-
-- Prepared insectary production metrics and summary reports used to track colony health, rearing output, and operational activity
-- Maintained laboratory and office supply tracking to support continuity of biological control operations
-- Assisted with rearing, maintenance, and documentation for biological control agents
-- Supported coordination between administrative, laboratory, and field staff
-
-### Mosquito Surveillance Technician
-
-**The Woodlands Township Environmental Services** — The Woodlands, Texas  
-May 2018--December 2018
-
-- Set and retrieved CDC gravid traps, CDC light traps, GATs, and BG-Sentinel traps for mosquito surveillance
-- Maintained and repaired surveillance and treatment equipment used in field operations
-- Performed mosquito identification, pooling, and immunoassays on collected mosquitoes
-- Assisted with public and community outreach events
-
-## Publications
-
-### Peer-reviewed Articles
-
-Lucas, K. J., McDuffie, D., Gutierrez, I., Kacinsakas, S., **Rosales, A.**, Konieczny, O., & Luna, C. (2026). Susceptibility status of *Aedes aegypti* populations to naled in Collier County, Florida. *Journal of the American Mosquito Control Association*. Advance online publication. https://doi.org/10.2987/26-7290
-
-Kuppe, C. R., Duett, M., Arber, K., **Rosales, A.**, Bonaccorsi, J., Oliva, D., Diclaro, J. W., II, & Qualls, W. A. (2026). Operational evaluation of unmanned aerial vehicle-applied granular larvicides in an integrated mosquito management program. *Acta Tropica*. https://doi.org/10.1016/j.actatropica.2026.108146
-
-Martin, H., Reeves, L. E., Steele, G., **Rosales, A.**, Heinig, R., & Lucas, K. J. (2024). *Aedeomyia squamipennis*: A new genus and species record for Collier County, Florida, USA. *Journal of the American Mosquito Control Association, 40*(4), 174--177. https://doi.org/10.2987/24-7188
-
-Reeves, L. E., Sloyer, K. E., Tyler-Julian, K., Heinig, R., **Rosales, A.**, Domingo, C., & Burkett-Cadena, N. D. (2023). *Culex* (*Phenacomyia*) *lactator* (Diptera: Culicidae) in southern Florida, USA: A new subgenus and species country record. *Journal of Medical Entomology, 60*(3), 478--486. https://doi.org/10.1093/jme/tjad023
-
-### Professional Articles and Trade Publications
-
-Rosales, A. (2025, November 1). [3D Modeling and Manufacturing Techniques](https://indd.adobe.com/view/d229b5f1-c878-40ae-86da-37cc695457a3). *Wing Beats*.
-
-Rosales, A. (2023, September 15). [Improved Sample Tray for Adult Mosquito Identification](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:deccb871-69ee-39a8-8579-c5917d58e781). *Wing Beats*.
-
-Rosales, A. (2023, September 15). [State-Mandated Security Standards for Drone Use and Its Impact on Mosquito Control Operations](https://indd.adobe.com/view/6be2b90f-a354-4598-b0ee-16240733aa8e). *Wing Beats*.
-
-## Presentations
-
-### Invited Talks
-
-Rosales, A. (October 2025). Evaluation of Unmanned Aerial System Application of VectoBac FG+ for Control of *Culex nigripalpus* in a Continuously Flooded Habitat. Northwest Mosquito and Vector Control Association Annual Meeting, Island Park, ID.
-
-Rosales, A. (March 2024). Taking Flight with Drone Photogrammetry: Operational Uses for Aerial Imagery. American Mosquito Control Association Annual Meeting, Dallas, Texas.
-
-Rosales, A. (April 2024). Evolution of Unmanned Aerial Systems (UAS) at Collier Mosquito Control District. Florida Mosquito Control Association Annual Fly-In, Lehigh Acres, Florida.
-
-### Contributed Talks
-
-Rosales, A. (March 2026). Evaluation of Unmanned Aerial System Application of VectoBac FG+ for Control of *Culex nigripalpus* in a Continuously Flooded Habitat. American Mosquito Control Association Annual Meeting, Portland, Oregon.
-
-Rosales, A. (March 2026). Introducing the Aerial Swath Analysis Platform (ASAP): A Web Application for Modeling and Optimizing Granular Aerial Applications. American Mosquito Control Association Annual Meeting, Portland, Oregon.
-
-Rosales, A. (November 2025). Evaluation of Unmanned Aerial System Application of VectoBac FG+ for Control of *Culex nigripalpus* in a Continuously Flooded Habitat. Florida Mosquito Control Association Annual Meeting, Port Charlotte, Florida.
-
-Rosales, A. (March 2025). Evolution of Unmanned Aerial Systems (UAS) at Collier MCD. Florida Mosquito Control Association Annual Fly-In, Fort Myers, Florida.
-
-Rosales, A. (March 2025). Drone-Based LiDAR Mapping of Mangrove Microtopography for Targeting *Aedes taeniorhynchus* Production Sites. American Mosquito Control Association Annual Meeting, San Juan, Puerto Rico.
-
-Rosales, A. (November 2024). Where Have They Gone? Investigating the Missing *Culex nigripalpus* at Collier Mosquito Control District. Florida Mosquito Control Association Annual Meeting, Orlando, Florida.
-
-Rosales, A. (April 2024). Overview of Unmanned Aerial System (UAS) Operations at Collier Mosquito Control District. Lee County Mosquito Control Aerial Workshop, Lehigh Acres, Florida.
-
-Rosales, A. (January 2024). A Year in Review: Operational Assessment of AG-Mission at Collier Mosquito Control District. Florida Mosquito Control Association Annual Fly-In, Ellenton, Florida.
-
-Rosales, A. (November 2023). Leveraging ArcGIS Online to Enhance Treatment Operations. Florida Mosquito Control Association Annual Meeting, Cape Coral, Florida.
-
-Rosales, A. (April 2023). Winging It: Optimizing Aerial Treatment Operations with AG-Mission. Lee County Mosquito Control Aerial Workshop, Fort Myers, Florida.
-
-Rosales, A. (March 2023). Evaluating BG-Counter Performance in Surveilling Collier County's Diverse Mosquito Populations. American Mosquito Control Association Annual Meeting, Reno, Nevada.
-
-Rosales, A. (November 2022). Evaluating BG-Counter Performance in Surveilling Collier County's Diverse Mosquito Populations. Florida Mosquito Control Association Annual Meeting, Palm Coast, Florida.
-
-## Teaching and Workshops
-
-Rosales, A. (January 2026). Integrated Pest Management. Advanced Mosquito Control, DODD Short Courses, Florida Mosquito Control Association.  
-Focuses on the history of integrated pest management in the US, surveillance-driven decision-making, establishing treatment thresholds, and leveraging freely accessible GIS data for enhancing integrated mosquito management practices.
-
-Rosales, A. (January 2026). Mosquito Surveillance and Identification. Introduction to Mosquito Control, DODD Short Courses, Florida Mosquito Control Association.  
-Focuses on adult and larval surveillance, trap deployment and use cases, specimen handling, mosquito identification, data quality, and the public health role of surveillance.
-
-Rosales, A., & Lefkow, N. (January 2024). Unmanned Aerial Systems (UAS) for Mosquito Control: Regulations, Operations, and Best Practices. DODD Short Courses, Florida Mosquito Control Association.
-
-Rosales, A. (January 2022). Taking on Tables: Intermediate Excel for the Mosquito Control Professional. DODD Short Courses, Florida Mosquito Control Association.
-
-## Awards and Recognition
-
-**Cyrus R. Lesser Student Paper Competition, 1st Place Winner**  
-Florida Mosquito Control Association, 2025
-
-**T. Wainwright Miller Scholarship**  
-Florida Mosquito Control Association, 2025
-
-**James M. Robinson Memorial Award**  
-Florida Mosquito Control Association, 2024  
-In appreciation for outstanding service to the Florida Mosquito Control Association through the development of an end-to-end digital workflow for the Collier Mosquito Control District's Mosquitofish program.
-
-**Industry Shadow Program and Stipend Awardee**  
-American Mosquito Control Association, 2023
-
-**Tallahassee Days Stipend Awardee**  
-Florida Mosquito Control Association, 2023
-
-## Professional Service and Leadership
-
-- UAS Committee Chair, Florida Mosquito Control Association, 2022--2024
-- A/V Committee Member, Florida Mosquito Control Association, 2023--2026
-- DODD Committee Member, Florida Mosquito Control Association, 2024--2026
-- Science and Technology Committee Member, American Mosquito Control Association
+You can also find me on [GitHub](https://github.com/atom-geo) or connect with me on [LinkedIn](https://www.linkedin.com/in/atom-rosales-659754380/).
