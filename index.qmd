@@ -5,19 +5,23 @@ image: assets/social/atom-rosales-social.png
 body-classes: home-page
 ---
 
-::: {.home-banner}
-<img src="assets/home/atom-dodd-banner.jpg" class="home-banner-image" alt="Atom Rosales presenting a professional workshop on data analysis.">
-:::
+::: {.home-hero}
 
 ::: {.home-intro}
 
-# Welcome to my portfolio!
+<p class="home-heading" role="heading" aria-level="1">Hello, my name is Atom!</p>
 
 I am a spatial data scientist and public health professional working at the intersection of geographic information systems, mosquito control, remote sensing, and field operations.
 
 I build geospatial tools and analytical workflows that connect surveillance, remote sensing, and field operations. My work helps organizations transform complex data to clear, defensible actions.
 
 I currently lead technical development at Collier Mosquito Control District, where I work across GIS, spatial analytics, unmanned aircraft systems, and operational mosquito control.
+
+:::
+
+::: {.home-photo}
+<img src="assets/home/atom-dodd-banner.jpg" class="home-photo-image" alt="Atom Rosales presenting a professional workshop on data analysis.">
+:::
 
 :::
 
