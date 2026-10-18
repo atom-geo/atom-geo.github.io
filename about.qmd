@@ -1,6 +1,7 @@
 ---
 title: "About Me"
-subtitle: "Spatial data science, GIS, and practical problem solving for public health."
+subtitle: "From field surveillance to spatial data science and operational decision support."
+description: "How field surveillance, GIS, and public health operations shaped Atom Rosales's work in spatial data science and decision support."
 image: assets/social/atom-rosales-social.png
 body-classes: about-page
 format:
@@ -14,14 +15,6 @@ format:
 ::: {.about-actions}
 [Download CV](assets/about/Atom_Rosales_Resume.pdf){.btn .btn-primary}
 :::
-
-## What I do
-
-I am a spatial data scientist and public health professional working at the intersection of GIS, mosquito control, drones, and field operations. I build systems that turn data from traps, laboratories, aircraft, and field crews into information people can use to make better decisions.
-
-At Collier Mosquito Control District, I lead technical development across GIS, spatial analytics, and unmanned aircraft systems. Much of my work involves connecting pieces that are often treated separately, including surveillance data, environmental conditions, treatment records, remote sensing, and the practical realities of field operations.
-
-I enjoy working on problems where analysis has a visible operational outcome. That might mean improving how an aerial treatment is calibrated, helping a field team prioritize an area, or making complex surveillance information easier to understand and act on. The tools vary from project to project, but the goal is consistent: produce reliable information that supports effective and defensible public health decisions.
 
 ## How I got here
 
@@ -49,4 +42,4 @@ What continues to draw me to this work is the combination of curiosity, practica
 
 For a detailed record of my professional experience, education, publications, presentations, and service, [download my CV](assets/about/Atom_Rosales_Resume.pdf).
 
-You can also find me on [GitHub](https://github.com/atom-geo) or connect with me on [LinkedIn](https://www.linkedin.com/in/atom-rosales-659754380/).
+You can contact me at [atommrosales@gmail.com](mailto:atommrosales@gmail.com), explore my work on [GitHub](https://github.com/atom-geo), or find my scholarly record on [ORCID](https://orcid.org/0000-0001-8702-1194) and [Google Scholar](https://scholar.google.com/citations?user=OHq3Kv4AAAAJ&hl=en).

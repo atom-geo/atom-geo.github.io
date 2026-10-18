@@ -1,5 +1,6 @@
 ---
-pagetitle: "Atom Rosales | Spatial Data Science and Public Health"
+title: "Hello, my name is Atom!"
+pagetitle: "Spatial Data Science and Public Health"
 description: "Geospatial tools and analytical workflows for surveillance, remote sensing, field operations, and defensible decision making."
 image: assets/social/atom-rosales-social.png
 body-classes: home-page
@@ -8,8 +9,6 @@ body-classes: home-page
 ::: {.home-hero}
 
 ::: {.home-intro}
-
-<p class="home-heading" role="heading" aria-level="1">Hello, my name is Atom!</p>
 
 I am a spatial data scientist and public health professional working at the intersection of geographic information systems, mosquito control, remote sensing, and field operations.
 
@@ -21,6 +20,40 @@ I currently lead technical development at Collier Mosquito Control District, whe
 
 ::: {.home-photo}
 <img src="assets/home/atom-dodd-banner.jpg" class="home-photo-image" alt="Atom Rosales presenting a professional workshop on data analysis.">
+:::
+
+:::
+
+::: {.home-work}
+
+## Selected work
+
+::: {.home-work-grid}
+
+::: {.work-feature .work-feature-kde}
+<div class="work-feature-index" aria-hidden="true">01</div>
+
+### Mosquito Complaint Hotspot Analysis
+
+A year-by-year view of where 28,889 resident mosquito complaints concentrated across Collier County from 2020 through 2026. A consistent 1,500-meter kernel density surface and fixed scale make patterns comparable while keeping complaint intensity distinct from mosquito abundance.
+
+<p class="work-feature-meta">Kernel density estimation <span>·</span> R <span>·</span> sf <span>·</span> Leaflet</p>
+
+[Explore the interactive analysis](https://atom-geo.github.io/sr_kde_collier/){.work-feature-link}
+:::
+
+::: {.work-feature .work-feature-asap}
+<div class="work-feature-index" aria-hidden="true">02</div>
+
+### Aerial Swath Analysis Platform (ASAP)
+
+A guided web application for processing and visualizing granular aerial-application calibration data. ASAP evaluates application rate, granular density, swath uniformity, and overlap so operational teams can identify clear, reproducible calibration parameters.
+
+<p class="work-feature-meta">Granular applications <span>·</span> Swath modeling <span>·</span> Calibration</p>
+
+[Read the published article](https://jamca.kglmeridian.com/view/journals/moco/42/3/article-p237.xml){.work-feature-link}
+:::
+
 :::
 
 :::

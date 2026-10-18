@@ -29,9 +29,6 @@ website:
       - icon: github
         href: https://github.com/atom-geo
         aria-label: GitHub
-      - icon: linkedin
-        href: https://www.linkedin.com/in/atom-rosales-659754380/
-        aria-label: LinkedIn
   page-footer:
     left: "© 2026 Atom Rosales"
     right: "Built with Quarto and GitHub Pages"
