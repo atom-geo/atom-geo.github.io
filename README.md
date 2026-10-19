@@ -10,7 +10,7 @@ The site is organized around two ideas:
 ## Selected work
 
 - **[Mosquito Complaint Hotspot Analysis](https://atom-geo.github.io/sr_kde_collier/):** an interactive, year-by-year kernel density analysis of resident mosquito complaints in Collier County.
-- **[Aerial Swath Analysis Platform (ASAP)](https://jamca.kglmeridian.com/view/journals/moco/42/3/article-p237.xml):** a guided analytical workflow for evaluating granular aerial-application calibration data, swath uniformity, and overlap.
+- **Aerial Swath Analysis Platform (ASAP):** a guided analytical workflow for evaluating granular aerial-application calibration data, swath uniformity, and overlap. [Live application](https://atom-sds-asap.share.connect.posit.cloud/) · [Source repository](https://github.com/atom-rosales/ASAP) · [Published article](https://jamca.kglmeridian.com/view/journals/moco/42/3/article-p237.xml)
 
 ## Structure
 

@@ -51,7 +51,14 @@ A guided web application for processing and visualizing granular aerial-applicat
 
 <p class="work-feature-meta">Granular applications <span>·</span> Swath modeling <span>·</span> Calibration</p>
 
+::: {.work-feature-links}
+[Launch the live application](https://atom-sds-asap.share.connect.posit.cloud/){.work-feature-link}
+
+[View the source repository](https://github.com/atom-rosales/ASAP){.work-feature-link}
+
 [Read the published article](https://jamca.kglmeridian.com/view/journals/moco/42/3/article-p237.xml){.work-feature-link}
+:::
+
 :::
 
 :::

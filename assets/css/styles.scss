@@ -201,6 +201,19 @@ body.home-page #title-block-header .title {
   padding: 0 0.3rem;
 }
 
+.work-feature-links {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1.25rem;
+  align-items: center;
+}
+
+.work-feature-links p {
+  margin: 0;
+}
+
 .work-feature-link {
   position: relative;
   z-index: 1;
