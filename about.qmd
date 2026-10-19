@@ -18,7 +18,7 @@ format:
 
 ## How I got here
 
-I did not begin my career expecting to work in spatial data science. I studied philosophy at the University of North Texas and entered mosquito control through hands-on field surveillance. Setting traps, identifying mosquitoes, maintaining equipment, and coordinating field activities gave me an appreciation for how much public health decisions depend on the quality and context of the underlying data.
+I entered mosquito control as a seasonal field technician in Texas. Setting traps, identifying mosquitoes, maintaining equipment, and coordinating field activities gave me an appreciation for how much public health decisions depend on the quality and context of the underlying data.
 
 My interest in GIS grew from wanting to solve practical problems that were difficult to understand from tables alone. One of my earliest GIS projects brought together a county storm sewer dataset and the locations of *Culex quinquefasciatus* mosquito pools that had tested positive for West Nile virus. By examining where positive-pool hotspots aligned with the storm sewer network, I used the existing infrastructure data to identify potential underground breeding sites and help plan a more focused surveillance and response strategy.
 
