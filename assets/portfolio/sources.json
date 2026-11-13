@@ -1,0 +1,16 @@
+{
+  "geography": {
+    "url": "https://atom-geo.github.io/sr_kde_collier/",
+    "description": "Actual county boundary and KDE percentile contours extracted from the public 2020, 2023 and 2026 Leaflet maps. No complaint locations added or simulated."
+  },
+  "screenshots": [
+    "https://atom-geo.github.io/sr_kde_collier/maps/sr_kde_2026.html",
+    "https://atom-sds-asap.share.connect.posit.cloud/"
+  ],
+  "leaflet": {
+    "js": "https://atom-geo.github.io/sr_kde_collier/maps/sr_kde_2026_files/leaflet-1.3.1/leaflet.js",
+    "css": "https://atom-geo.github.io/sr_kde_collier/maps/sr_kde_2026_files/leaflet-1.3.1/leaflet.css"
+  },
+  "lucide": "Bundled Lucide UMD distribution",
+  "portrait": "assets/home/atom-dodd-banner.jpg"
+}

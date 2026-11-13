@@ -4,7 +4,7 @@ This repository contains [Atom Rosales's professional portfolio](https://atom-ge
 
 The site is organized around two ideas:
 
-- The homepage explains the work and highlights selected analytical tools.
+- The homepage introduces the work through interactive complaint contours and selected analytical tools.
 - The About page tells the professional story behind that work and provides a downloadable CV.
 
 ## Selected work
@@ -19,12 +19,16 @@ The site is organized around two ideas:
 - `assets/about/Atom_Rosales_Resume.pdf`: downloadable CV
 - `assets/about/Atom_Rosales_Master_CV.docx`: editable master CV
 - `assets/social/atom-rosales-social.png`: social-sharing image
-- `assets/css/styles.scss`: custom site styles
+- `assets/css/styles.css`: responsive site styles
+- `assets/js/portfolio.js`: navigation and interactive map controls
+- `assets/includes/`: shared header, footer, and script includes
+- `assets/portfolio/`: project screenshots and public complaint contour data
+- `assets/vendor/`: local Leaflet and Lucide dependencies
 
 ## Built with
 
 - [Quarto](https://quarto.org/) for rendering
-- SCSS for the visual system and responsive layout
+- CSS for the visual system and responsive layout
 - GitHub Actions and GitHub Pages for automated deployment
 
 ## Local preview

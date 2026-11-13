@@ -4,6 +4,8 @@ project:
   render:
     - index.qmd
     - about.qmd
+  resources:
+    - assets/
 
 website:
   title: "Atom Rosales"
@@ -17,31 +19,22 @@ website:
   twitter-card:
     card-style: summary_large_image
     image: assets/social/atom-rosales-social.png
-  navbar:
-    background: light
-    pinned: true
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "About"
-        href: about.qmd
-    right:
-      - icon: github
-        href: https://github.com/atom-geo
-        aria-label: GitHub
-  page-footer:
-    left: "© 2026 Atom Rosales"
-    right: "Built with Quarto and GitHub Pages"
+  navbar: false
 
 format:
   html:
-    theme:
-      - spacelab
-      - assets/css/styles.scss
+    theme: none
+    page-layout: custom
+    css:
+      - assets/vendor/leaflet/leaflet.css
+      - assets/css/styles.css
+    include-in-header: assets/includes/scripts.html
+    include-before-body: assets/includes/header.html
+    include-after-body: assets/includes/footer.html
     toc: false
     code-fold: false
     code-tools: false
-    smooth-scroll: true
-    anchor-sections: true
+    smooth-scroll: false
+    anchor-sections: false
     link-external-newwindow: true
     fig-cap-location: bottom
