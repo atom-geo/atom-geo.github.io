@@ -17,6 +17,7 @@ The site is organized around two ideas:
 - `index.qmd`: homepage and selected work
 - `about.qmd`: professional background and career path
 - `assets/about/Atom_Rosales_Resume.pdf`: downloadable CV
+- `assets/about/Atom_Rosales_Master_CV.docx`: editable master CV
 - `assets/social/atom-rosales-social.png`: social-sharing image
 - `assets/css/styles.scss`: custom site styles
 
